@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from datetime import datetime
 
 
 @dataclass
@@ -20,4 +19,3 @@ class Book:
     publishing_year: int
     age_rating: str
     description: str
-    created_at: datetime
