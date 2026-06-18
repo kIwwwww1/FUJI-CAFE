@@ -2,7 +2,7 @@ import logging
 
 from backend.book_service.src.domain import BookAlreadyExistsError
 from backend.book_service.src.domain.entities import Book
-from backend.book_service.src.domain.interfaces.repositories.book_repository import (
+from backend.book_service.src.domain.interfaces.book_repository import (
     AbstractBookRepository,
 )
 from backend.book_service.src.infrastructure.web.schemas import BookCreateDTO

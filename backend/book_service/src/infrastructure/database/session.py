@@ -7,6 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_asyn
 
 logger = logging.getLogger(__name__)
 
+# Получение из PydanticSetting или через .env напрямую
 DATABASE_URL = "..."
 
 engine = create_async_engine(
