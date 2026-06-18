@@ -14,8 +14,13 @@ class AbstractBookRepository(ABC):
         pass
 
     @abstractmethod
-    async def get_by_id(self, id: int) -> None:
+    async def get_by_id(self, id: int) -> Book | None:
         """Получение книги по id в бд"""
+        pass
+
+    @abstractmethod
+    async def get_by_isbn(self, isbn: str) -> Book | None:
+        """Найти книгу по ISBN. Если не найдена — вернуть None"""
         pass
 
     # @abstractmethod
