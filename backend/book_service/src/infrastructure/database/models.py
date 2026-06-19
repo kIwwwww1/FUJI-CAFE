@@ -1,0 +1,19 @@
+from . import BaseMixin
+
+
+class Books(BaseMixin): ...
+
+
+class Series(BaseMixin): ...
+
+
+class Publishers(BaseMixin): ...
+
+
+class Genres(BaseMixin): ...
+
+
+class SeriesGenres(BaseMixin): ...
+
+
+class Authors(BaseMixin): ...

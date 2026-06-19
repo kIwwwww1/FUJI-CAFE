@@ -1,10 +1,11 @@
 from dataclasses import dataclass
 
+# series_id: int
+# publisher_id: int
+
 
 @dataclass
 class Book:
-    series_id: int
-    publisher_id: int
     type: list[str | None]
     title_ru: str
     title_orig: str
